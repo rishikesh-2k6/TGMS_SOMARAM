@@ -1,0 +1,17 @@
+{
+  "name": "tgms-somaram",
+  "version": "1.0.0",
+  "description": "Official website for PM SHRI Telangana Model School & Junior College, Somaram",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "school",
+    "tgms-somaram",
+    "pm-shri",
+    "telangana-model-school"
+  ],
+  "author": "TGMS Somaram",
+  "license": "MIT"
+}

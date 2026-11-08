@@ -37,17 +37,24 @@ function initMobileMenu() {
 }
 
 /* -------------------------------------------------------------------------
- * 2. Active Nav Link Auto-Highlight
+ * 2. Active Nav Link Auto-Highlight (Supports Clean URLs on Vercel)
  * ------------------------------------------------------------------------- */
 function initActiveNavLink() {
-  const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+  const rawPath = window.location.pathname.split('/').pop() || 'index.html';
+  const currentPath = rawPath === '' ? 'index.html' : rawPath;
+  const cleanCurrent = currentPath.replace(/\.html$/, '');
   const navLinks = document.querySelectorAll('.nav-link');
 
   navLinks.forEach((link) => {
-    const href = link.getAttribute('href');
+    const href = link.getAttribute('href') || '';
+    const cleanHref = href.replace(/\.html$/, '');
     const parent = link.closest('.nav-item');
     if (parent) {
-      if (href === currentPath || (currentPath === '' && href === 'index.html')) {
+      if (
+        href === currentPath ||
+        cleanHref === cleanCurrent ||
+        ((cleanCurrent === 'index' || cleanCurrent === '') && (cleanHref === 'index' || href === 'index.html'))
+      ) {
         parent.classList.add('active');
       } else {
         parent.classList.remove('active');

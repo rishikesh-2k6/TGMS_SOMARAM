@@ -4,7 +4,32 @@ A modern, responsive, multi-page website built with semantic **HTML5**, **CSS3**
 
 ---
 
-## 🚀 How to View the Website
+## ⚡ Deploying to Vercel (Ready Out-of-the-Box)
+
+This repository includes a production-ready `vercel.json` and `404.html` configuration.
+
+### Option 1: Via Vercel Dashboard (Easiest & Recommended)
+1. Go to [vercel.com](https://vercel.com) and log in with your GitHub account.
+2. Click **"Add New..."** → **"Project"**.
+3. Choose your repository: **`rishikesh-2k6/TGMS_SOMARAM`** and click **Import**.
+4. Leave settings as default (**Framework Preset: Other**, **Root Directory: `./`**).
+5. Click **"Deploy"**.
+6. Done! Your website will be live with a free, secure `https://tgms-somaram.vercel.app` domain within 30 seconds.
+
+### Option 2: Via Vercel CLI
+```bash
+npx vercel
+```
+
+### Vercel Optimizations Included:
+- **Clean URLs enabled:** URLs work without `.html` extension (e.g. `/staff`, `/gallery`, `/contact`).
+- **Asset caching:** Long-term caching for images (1 year immutable) and optimized caching for styles and scripts.
+- **Security headers:** X-Content-Type-Options, X-Frame-Options, XSS protection, and Referrer Policy.
+- **Custom 404 page:** Branded `404.html` with school identity and instant redirect to home.
+
+---
+
+## 🚀 How to View Locally
 
 You don't need any complex server or database setup!
 
@@ -26,6 +51,10 @@ TGMS SOMARAM/
 ├── administration.html        # Governance, committees (SMC, PTA), bell schedule, rules
 ├── case-study.html            # Institutional report, campus profile, Program "Alchemy", Houses
 ├── contact.html               # Contact details, inquiry form, Google Maps integration
+├── 404.html                   # Custom branded 404 error page for Vercel
+├── vercel.json                # Vercel deployment configuration (clean URLs, caching, headers)
+├── .vercelignore              # Files excluded from Vercel deployments
+├── package.json               # Node metadata and local dev script
 ├── css/
 │   └── style.css              # Responsive styling, color variables, mobile layouts
 ├── js/
