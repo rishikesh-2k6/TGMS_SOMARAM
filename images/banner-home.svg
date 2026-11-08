@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 450" width="1200" height="450">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f" />
+      <stop offset="50%" stop-color="#1b3a6b" />
+      <stop offset="100%" stop-color="#2a5298" />
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#ffb74d" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffb74d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="450" fill="url(#bgGrad)"/>
+  <circle cx="600" cy="150" r="350" fill="url(#sunGlow)"/>
+  
+  <!-- Subtle Grid lines -->
+  <g stroke="rgba(255,255,255,0.05)" stroke-width="1">
+    <line x1="0" y1="90" x2="1200" y2="90"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="200" y1="0" x2="200" y2="450"/>
+    <line x1="400" y1="0" x2="400" y2="450"/>
+    <line x1="600" y1="0" x2="600" y2="450"/>
+    <line x1="800" y1="0" x2="800" y2="450"/>
+    <line x1="1000" y1="0" x2="1000" y2="450"/>
+  </g>
+
+  <!-- School Building Silhouette in background -->
+  <path d="M 0 450 L 150 450 L 150 350 L 250 350 L 250 320 L 320 320 L 320 300 L 380 300 L 400 260 L 420 300 L 480 300 L 480 340 L 580 340 L 580 450 Z" fill="rgba(255,255,255,0.06)"/>
+  <path d="M 620 450 L 620 330 L 720 330 L 720 300 L 780 270 L 840 300 L 840 330 L 960 330 L 960 360 L 1050 360 L 1050 450 Z" fill="rgba(255,255,255,0.06)"/>
+
+  <!-- Foreground School Ground and Ramp -->
+  <path d="M 0 450 Q 600 380 1200 450 L 1200 450 L 0 450 Z" fill="rgba(255,255,255,0.1)"/>
+
+  <!-- Floating Badge / Logo Watermark -->
+  <circle cx="600" cy="130" r="50" fill="rgba(255,255,255,0.12)" stroke="rgba(255,215,0,0.6)" stroke-width="2"/>
+  
+  <!-- Banner Text -->
+  <text x="600" y="210" font-family="'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="bold" fill="#ffb74d" text-anchor="middle" letter-spacing="4">
+    GOVERNMENT OF TELANGANA • MODEL SCHOOLS SOCIETY
+  </text>
+  <text x="600" y="260" font-family="'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1.5">
+    TELANGANA STATE MODEL SCHOOL
+  </text>
+  <text x="600" y="300" font-family="'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="700" fill="#f5af19" text-anchor="middle" letter-spacing="2">
+    KAMALAPUR • KARIMNAGAR DIST.
+  </text>
+  
+  <rect x="350" y="330" width="500" height="42" rx="21" fill="rgba(0,0,0,0.3)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <text x="600" y="356" font-family="'Segoe UI', Roboto, sans-serif" font-size="15" font-style="italic" fill="#e2e8f0" text-anchor="middle">
+    "Knowledge is Treasure but... Practice is its Key"
+  </text>
+  
+  <!-- Bottom info chips -->
+  <text x="600" y="415" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#94a3b8" text-anchor="middle">
+    DISE CODE: 28035000835  |  BIE CODE: 18068  |  CLASSES: VI TO XII (ENGLISH MEDIUM)
+  </text>
+</svg>

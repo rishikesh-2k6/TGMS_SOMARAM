@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="assBg" x1="0" y1="0" x2="0" y2="100%">
+      <stop offset="0%" stop-color="#ebf8ff"/>
+      <stop offset="100%" stop-color="#c3dafe"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#assBg)"/>
+  <rect x="0" y="280" width="600" height="120" fill="#4a5568"/>
+
+  <!-- Stage & Podium -->
+  <rect x="220" y="210" width="160" height="70" fill="#2d3748" rx="4"/>
+  <rect x="270" y="150" width="60" height="65" fill="#744210" rx="3"/>
+  <circle cx="300" cy="140" r="4" fill="#a0aec0"/>
+  <line x1="300" y1="140" x2="295" y2="150" stroke="#718096" stroke-width="2"/>
+
+  <!-- Speaker at Podium -->
+  <circle cx="300" cy="115" r="12" fill="#fbd38d"/>
+  <rect x="290" y="127" width="20" height="25" fill="#2b6cb0"/>
+
+  <!-- Student Council & Assembly Rows -->
+  <g fill="#1a365d">
+    <!-- Row 1 -->
+    <circle cx="100" cy="270" r="10"/><rect x="92" y="280" width="16" height="35"/>
+    <circle cx="140" cy="270" r="10"/><rect x="132" y="280" width="16" height="35"/>
+    <circle cx="180" cy="270" r="10"/><rect x="172" y="280" width="16" height="35"/>
+
+    <circle cx="420" cy="270" r="10"/><rect x="412" y="280" width="16" height="35"/>
+    <circle cx="460" cy="270" r="10"/><rect x="452" y="280" width="16" height="35"/>
+    <circle cx="500" cy="270" r="10"/><rect x="492" y="280" width="16" height="35"/>
+
+    <!-- Row 2 -->
+    <circle cx="120" cy="300" r="10"/><rect x="112" y="310" width="16" height="35"/>
+    <circle cx="160" cy="300" r="10"/><rect x="152" y="310" width="16" height="35"/>
+    <circle cx="440" cy="300" r="10"/><rect x="432" y="310" width="16" height="35"/>
+    <circle cx="480" cy="300" r="10"/><rect x="472" y="310" width="16" height="35"/>
+  </g>
+
+  <rect x="120" y="345" width="360" height="38" rx="6" fill="#1a202c"/>
+  <text x="300" y="369" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    MOCK ASSEMBLY & STUDENT CABINET
+  </text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="labBg" x1="0" y1="0" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a365d"/>
+      <stop offset="100%" stop-color="#2b6cb0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#labBg)"/>
+  
+  <!-- Grid backdrop -->
+  <g stroke="rgba(255,255,255,0.08)" stroke-width="1">
+    <line x1="0" y1="100" x2="600" y2="100"/>
+    <line x1="0" y1="200" x2="600" y2="200"/>
+    <line x1="0" y1="300" x2="600" y2="300"/>
+    <line x1="150" y1="0" x2="150" y2="400"/>
+    <line x1="300" y1="0" x2="300" y2="400"/>
+    <line x1="450" y1="0" x2="450" y2="400"/>
+  </g>
+
+  <!-- Microscope -->
+  <path d="M 120 320 L 200 320 L 190 300 L 130 300 Z" fill="#718096"/>
+  <rect x="155" y="230" width="15" height="75" fill="#a0aec0"/>
+  <path d="M 155 230 C 130 200 130 160 160 140 L 180 155 C 160 170 160 195 170 215 Z" fill="#cbd5e0"/>
+  <rect x="175" y="115" width="25" height="70" rx="4" transform="rotate(-30 185 150)" fill="#edf2f7" stroke="#2d3748" stroke-width="2"/>
+  <rect x="140" y="240" width="55" height="8" fill="#4a5568"/>
+
+  <!-- Chemistry Flasks with Bubbles -->
+  <!-- Conical Flask -->
+  <polygon points="260,200 280,200 280,240 330,320 230,320 260,240" fill="none" stroke="#e2e8f0" stroke-width="4"/>
+  <polygon points="274,260 286,260 320,314 240,314 266,260" fill="#38a169" opacity="0.7"/>
+  <circle cx="280" cy="285" r="5" fill="#c6f6d5"/>
+  <circle cx="295" cy="300" r="4" fill="#c6f6d5"/>
+  <circle cx="270" cy="305" r="3" fill="#c6f6d5"/>
+
+  <!-- Round Bottom Flask -->
+  <circle cx="390" cy="270" r="45" fill="none" stroke="#e2e8f0" stroke-width="4"/>
+  <rect x="382" y="180" width="16" height="50" fill="none" stroke="#e2e8f0" stroke-width="4"/>
+  <path d="M 350 285 A 45 45 0 0 0 430 285 Z" fill="#e53e3e" opacity="0.7"/>
+  <circle cx="390" cy="270" r="6" fill="#fed7d7"/>
+  <circle cx="405" cy="285" r="4" fill="#fed7d7"/>
+
+  <!-- Molecular Structure Symbol -->
+  <circle cx="480" cy="140" r="14" fill="#ecc94b"/>
+  <circle cx="530" cy="110" r="12" fill="#4299e1"/>
+  <circle cx="540" cy="180" r="12" fill="#48bb78"/>
+  <line x1="480" y1="140" x2="530" y2="110" stroke="#ffffff" stroke-width="3"/>
+  <line x1="480" y1="140" x2="540" y2="180" stroke="#ffffff" stroke-width="3"/>
+
+  <!-- Table top -->
+  <rect x="50" y="320" width="500" height="15" fill="#4a5568"/>
+  
+  <rect x="150" y="350" width="300" height="35" rx="6" fill="rgba(0,0,0,0.4)"/>
+  <text x="300" y="373" font-family="'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    COMPREHENSIVE SCIENCE LABORATORIES
+  </text>
+</svg>

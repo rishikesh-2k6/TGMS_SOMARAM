@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="ictBg" x1="0" y1="0" x2="0" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#ictBg)"/>
+  
+  <!-- Server / Digital Grid -->
+  <g stroke="rgba(56,189,248,0.15)" stroke-width="1">
+    <line x1="0" y1="50" x2="600" y2="50"/>
+    <line x1="0" y1="120" x2="600" y2="120"/>
+    <line x1="0" y1="190" x2="600" y2="190"/>
+    <line x1="0" y1="260" x2="600" y2="260"/>
+  </g>
+
+  <!-- 3 Workstation Monitors -->
+  <!-- Monitor 1 (Left) -->
+  <rect x="70" y="140" width="120" height="85" rx="4" fill="#334155" stroke="#0ea5e9" stroke-width="2"/>
+  <rect x="78" y="148" width="104" height="69" rx="2" fill="#0284c7"/>
+  <line x1="88" y1="165" x2="140" y2="165" stroke="#ffffff" stroke-width="3"/>
+  <line x1="88" y1="178" x2="165" y2="178" stroke="#bae6fd" stroke-width="2"/>
+  <line x1="88" y1="190" x2="130" y2="190" stroke="#bae6fd" stroke-width="2"/>
+  <rect x="120" y="225" width="20" height="25" fill="#475569"/>
+  <ellipse cx="130" cy="252" rx="30" ry="6" fill="#64748b"/>
+  <!-- Keyboard & Mouse -->
+  <rect x="75" y="258" width="95" height="15" rx="2" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+  <ellipse cx="185" cy="265" rx="7" ry="10" fill="#475569"/>
+
+  <!-- Monitor 2 (Center - Featured) -->
+  <rect x="230" y="115" width="140" height="100" rx="5" fill="#1e293b" stroke="#38bdf8" stroke-width="3"/>
+  <rect x="240" y="125" width="120" height="80" rx="2" fill="#0369a1"/>
+  <!-- Code on Center Monitor -->
+  <text x="250" y="145" font-family="monospace" font-size="10" fill="#a7f3d0">&lt;ICT Lab&gt;</text>
+  <text x="255" y="160" font-family="monospace" font-size="9" fill="#fde047">Digital Literacy</text>
+  <text x="255" y="175" font-family="monospace" font-size="9" fill="#fde047">E-Learning</text>
+  <text x="250" y="190" font-family="monospace" font-size="10" fill="#a7f3d0">&lt;/TSMS&gt;</text>
+  <rect x="290" y="215" width="20" height="35" fill="#334155"/>
+  <ellipse cx="300" cy="252" rx="40" ry="8" fill="#475569"/>
+  <!-- Keyboard & Mouse -->
+  <rect x="240" y="258" width="105" height="16" rx="2" fill="#0f172a" stroke="#64748b" stroke-width="1"/>
+  <ellipse cx="360" cy="266" rx="8" ry="11" fill="#475569"/>
+
+  <!-- Monitor 3 (Right) -->
+  <rect x="410" y="140" width="120" height="85" rx="4" fill="#334155" stroke="#0ea5e9" stroke-width="2"/>
+  <rect x="418" y="148" width="104" height="69" rx="2" fill="#0284c7"/>
+  <!-- Graph on screen 3 -->
+  <polyline points="430,200 455,185 475,192 495,160 510,170" fill="none" stroke="#22c55e" stroke-width="3"/>
+  <rect x="460" y="225" width="20" height="25" fill="#475569"/>
+  <ellipse cx="470" cy="252" rx="30" ry="6" fill="#64748b"/>
+  <rect x="415" y="258" width="95" height="15" rx="2" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+  <ellipse cx="525" cy="265" rx="7" ry="10" fill="#475569"/>
+
+  <!-- Lab Desk -->
+  <rect x="30" y="278" width="540" height="22" fill="#334155" stroke="#475569" stroke-width="1"/>
+
+  <rect x="150" y="340" width="300" height="35" rx="6" fill="rgba(14,165,233,0.2)" stroke="#38bdf8" stroke-width="1"/>
+  <text x="300" y="363" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold" fill="#38bdf8" text-anchor="middle">
+    MODERN COMPUTER & ICT LABORATORY
+  </text>
+</svg>

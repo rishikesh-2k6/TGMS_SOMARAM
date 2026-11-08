@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6d365" />
+      <stop offset="100%" stop-color="#fda085" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3c72" />
+      <stop offset="100%" stop-color="#2a5298" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <circle cx="100" cy="100" r="92" fill="#ffffff" stroke="#1e3c72" stroke-width="6" filter="url(#shadow)"/>
+  <circle cx="100" cy="100" r="82" fill="none" stroke="#e67e22" stroke-width="2.5" stroke-dasharray="5 3"/>
+  
+  <!-- Outer Banner Text Path -->
+  <path id="textCircle" d="M 30,100 A 70,70 0 1,1 170,100" fill="none"/>
+  <text font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="bold" fill="#1e3c72" letter-spacing="2">
+    <textPath href="#textCircle" startOffset="50%" text-anchor="middle">
+      TGMS SOMARAM
+    </textPath>
+  </text>
+  
+  <path id="subCircle" d="M 170,100 A 70,70 0 0,1 30,100" fill="none"/>
+  <text font-family="'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="bold" fill="#e67e22" letter-spacing="1.5">
+    <textPath href="#subCircle" startOffset="50%" text-anchor="middle">
+      PM SHRI • ESTD 2013
+    </textPath>
+  </text>
+
+  <!-- Central Crest Shield -->
+  <path d="M 70 65 L 130 65 Q 130 115 100 135 Q 70 115 70 65 Z" fill="url(#blueGrad)" stroke="#f6d365" stroke-width="2.5"/>
+  
+  <!-- Book / Knowledge Symbol -->
+  <path d="M 80 102 C 90 98 98 100 100 105 C 102 100 110 98 120 102 L 120 112 C 110 108 102 110 100 115 C 98 110 90 108 80 112 Z" fill="#ffffff"/>
+  <path d="M 100 105 L 100 115" stroke="#1e3c72" stroke-width="1.5"/>
+
+  <!-- Flaming Torch -->
+  <path d="M 98 75 L 102 75 L 100 95 Z" fill="#f6d365"/>
+  <ellipse cx="100" cy="74" rx="4.5" ry="8" fill="#e74c3c"/>
+  <ellipse cx="100" cy="74" rx="2.5" ry="5" fill="#f1c40f"/>
+  
+  <!-- Star accents -->
+  <polygon points="100,50 102,55 107,55 103,58 105,63 100,60 95,63 97,58 93,55 98,55" fill="#e67e22"/>
+  <circle cx="50" cy="100" r="3" fill="#e67e22"/>
+  <circle cx="150" cy="100" r="3" fill="#e67e22"/>
+</svg>

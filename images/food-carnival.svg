@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="foodBg" x1="0" y1="0" x2="0" y2="100%">
+      <stop offset="0%" stop-color="#fffaf0"/>
+      <stop offset="100%" stop-color="#feebc8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#foodBg)"/>
+
+  <!-- Bunting Banners at top -->
+  <polygon points="50,20 100,70 150,20" fill="#e53e3e"/>
+  <polygon points="150,20 200,70 250,20" fill="#3182ce"/>
+  <polygon points="250,20 300,70 350,20" fill="#38a169"/>
+  <polygon points="350,20 400,70 450,20" fill="#d69e2e"/>
+  <polygon points="450,20 500,70 550,20" fill="#805ad5"/>
+  <line x1="30" y1="20" x2="570" y2="20" stroke="#718096" stroke-width="3"/>
+
+  <!-- Traditional Food Stall Tent -->
+  <polygon points="100,140 300,80 500,140" fill="#dd6b20"/>
+  <polygon points="150,140 200,140 175,100" fill="#ffffff"/>
+  <polygon points="250,140 300,140 275,90" fill="#ffffff"/>
+  <polygon points="350,140 400,140 375,90" fill="#ffffff"/>
+  <polygon points="450,140 500,140 475,100" fill="#ffffff"/>
+
+  <!-- Stall counter -->
+  <rect x="120" y="200" width="360" height="100" fill="#c05621" rx="4"/>
+  <rect x="110" y="190" width="380" height="15" fill="#7b341e" rx="3"/>
+  <text x="300" y="245" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    TRADITIONAL CUISINE
+  </text>
+  <text x="300" y="275" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#feebc8" text-anchor="middle">
+    NUTRITION & CULTURAL FOOD FESTIVAL
+  </text>
+
+  <!-- Dishes on counter -->
+  <circle cx="180" cy="180" r="18" fill="#ecc94b" stroke="#975a16" stroke-width="2"/>
+  <circle cx="300" cy="175" r="22" fill="#e2e8f0" stroke="#a0aec0" stroke-width="2"/>
+  <circle cx="420" cy="180" r="18" fill="#ed8936" stroke="#975a16" stroke-width="2"/>
+
+  <rect x="130" y="340" width="340" height="38" rx="6" fill="#7b341e"/>
+  <text x="300" y="364" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    ANNUAL STUDENT FOOD CARNIVAL
+  </text>
+</svg>

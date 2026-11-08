@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="sportsBg" x1="0" y1="0" x2="0" y2="100%">
+      <stop offset="0%" stop-color="#48bb78"/>
+      <stop offset="100%" stop-color="#2f855a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#sportsBg)"/>
+  
+  <!-- Running Track Ovals -->
+  <ellipse cx="300" cy="200" rx="260" ry="140" fill="none" stroke="#c53030" stroke-width="24"/>
+  <ellipse cx="300" cy="200" rx="260" ry="140" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="8 6"/>
+  
+  <!-- Inner Green Pitch -->
+  <ellipse cx="300" cy="200" rx="245" ry="125" fill="#38a169"/>
+  
+  <!-- Football -->
+  <circle cx="200" cy="180" r="28" fill="#ffffff" stroke="#1a202c" stroke-width="3"/>
+  <polygon points="200,165 210,172 206,183 194,183 190,172" fill="#1a202c"/>
+  
+  <!-- Cricket Bat & Ball -->
+  <rect x="360" y="140" width="16" height="85" rx="4" transform="rotate(35 368 182)" fill="#d69e2e" stroke="#744210" stroke-width="2"/>
+  <rect x="390" y="110" width="8" height="35" rx="2" transform="rotate(35 394 127)" fill="#ffffff" stroke="#744210" stroke-width="2"/>
+  <circle cx="340" cy="230" r="14" fill="#e53e3e" stroke="#9b2c2c" stroke-width="2"/>
+
+  <!-- Volleyball Net line -->
+  <line x1="280" y1="120" x2="280" y2="280" stroke="#edf2f7" stroke-width="3" stroke-dasharray="4 2"/>
+
+  <rect x="150" y="340" width="300" height="35" rx="6" fill="rgba(0,0,0,0.6)"/>
+  <text x="300" y="363" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    SPORTS & PHYSICAL EDUCATION GROUND
+  </text>
+</svg>

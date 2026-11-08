@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250" width="250" height="250">
+  <rect width="250" height="250" rx="12" fill="#fdf2f8"/>
+  <!-- Hair back -->
+  <ellipse cx="125" cy="100" rx="50" ry="55" fill="#1a202c"/>
+  <circle cx="125" cy="95" r="40" fill="#fbd38d"/>
+  <!-- Hair front bangs -->
+  <path d="M 85 90 C 95 60 125 60 125 60 C 125 60 155 60 165 90 C 150 70 135 70 125 72 C 115 70 100 70 85 90 Z" fill="#1a202c"/>
+  <!-- Traditional Bindi -->
+  <circle cx="125" cy="85" r="3" fill="#9b2c2c"/>
+  <!-- Saree Body -->
+  <path d="M 50 230 C 50 170 80 150 125 150 C 170 150 200 170 200 230 Z" fill="#9f1239"/>
+  <!-- Saree Pallu drape -->
+  <path d="M 95 155 Q 120 180 145 230 L 175 230 Q 140 170 105 150 Z" fill="#f59e0b"/>
+</svg>
